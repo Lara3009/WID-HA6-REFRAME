@@ -1,7 +1,14 @@
-import Typography from "@mui/material/Typography";
+import {
+  InputLabel,
+  Button,
+  Select,
+  Typography,
+  MenuItem,
+} from "@mui/material";
+import Reframe from "./Reframe";
 
 function App() {
-  return <Typography variant="h1">Hello React + Mui</Typography>;
+  return <Reframe />;
 }
 
 export default App;
